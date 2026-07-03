@@ -23,7 +23,7 @@ print("My name is Your Name")
 # Write your code here:
 print("2")
 print("Freedom")
-print("Something when wrong")
+print("Something when wrong!")
 
 
 # Exercise 5: Understanding Print Behavior

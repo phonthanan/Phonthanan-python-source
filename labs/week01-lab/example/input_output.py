@@ -27,8 +27,8 @@ print("Calculated age:", calculated_age)
 
 # Exercise 4: Different Print Formats
 print("\n=== Exercise 4: Print Formatting ===")
-name = "Alice"
-score = 95
+name = "Phonthanan"
+score = 50
 subject = "Math"
 
 # Different ways to print the same information
