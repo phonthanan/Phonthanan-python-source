@@ -1,0 +1,26 @@
+"""
+Question 2: Currency Converter (20 points)
+
+Write a program that converts between Thai Baht (THB) and US Dollars (USD).
+Requirements:
+
+Ask user to choose conversion direction (THB to USD or USD to THB)
+Ask for the amount to convert
+Use exchange rate: 1 USD = 35.5 THB
+Display result with 2 decimal places
+Show the calculation formula used
+"""
+
+print("1. Convert THB to USD")
+print("2. Convert USD to THB")
+choice = input("Choose option: ")
+
+
+if choice == "1":
+    THB = float(input("Amount: "))
+    THB_USD = THB / 35.5
+    print("Convert to", THB_USD, "USD")
+elif choice == "2":
+    USD = float(input("Amount: "))
+    USD_THB = USD * 35.5
+    print("Convert to", USD_THB, "THB")
