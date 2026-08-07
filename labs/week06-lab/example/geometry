@@ -1,0 +1,10 @@
+def calculate_triangle_area(Height, Base):
+    """Calculates and displays triangle area"""
+    area = 1/2 * Height * Base
+    print(f"triangle with Height {Height} and Base {Base}")
+    print(f"Area = 1/2 x {Height} × {Base} = {area}")
+    print()
+
+print("Calculating triangle areas:")
+calculate_triangle_area(5, 3)
+calculate_triangle_area(10, 7)
