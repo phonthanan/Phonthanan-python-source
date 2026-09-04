@@ -1,0 +1,64 @@
+#part2
+EX1
+Calling greet_person with different names:
+Hello, 5! Nice to meet you.
+Hello, Bob! Nice to meet you.
+Hello, Charlie! Nice to meet you.
+
+EX2
+Calling introduce_person:
+Hi! My name is Diana.
+I am 25 years old.
+I live in New York.
+
+Hi! My name is Eve.
+I am 30 years old.
+I live in Los Angeles.
+
+EX3
+Calculating rectangle areas:
+Rectangle with length 5 and width 3
+Area = 5 × 3 = 15
+
+Rectangle with length 10 and width 7
+Area = 10 × 7 = 70
+
+#part3
+EX1
+Using functions that return values:
+5 + 3 = 8
+10 + 7 = 17
+Sum of both results: 25
+
+#part 4
+EX1
+Using default parameters:
+Hello, Mr./Ms. Smith!
+Hello, Dr. Johnson!
+Hello, Prof. Brown!
+
+EX2
+Multiple default parameters:
+Profile: Alice, Age: 18, Country: Unknown
+Profile: Bob, Age: 25, Country: Unknown
+Profile: Charlie, Age: 30, Country: USA
+
+"""
+เขียน FUNCTION แปลงหน่วยสกุลเงิน ที่สามารถแปลงเงินจาก
+THB <-> USD .. 1 USD = 32 THB
+
+โดยใช้ชื่อและการใช้งาน
+function convert_currency(100, "USD")
+
+แสดงผลออกทางจอ
+100 THB = 3.3 USD
+
+และทดสอบการใช้งาน function ที่ตัวเองเขียนด้วย
+
+"""
+RESULT
+Currency Converter:
+100THB = 3.1USD
+3.3USD = 105.6THB
+149THB = 4.7USD
+3.99USD = 127.7THB
