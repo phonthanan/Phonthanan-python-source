@@ -8,7 +8,7 @@ Create a Personal Information Validator program that:
     Uses appropriate string methods for validation
     Displays formatted output with proper string formatting
     
-    USE: isalpha(), isdigit(), upper(), string formatting with % or .format()
+    USE: isalpha(), isdigit(), isspace(), upper(), string formatting with % or .format()
     
 Example Result
 
@@ -28,3 +28,48 @@ Age Group: Young Adult (18-30)
 Phone: +91-9876543210
 
 """
+
+name = input("Enter yor name: ")
+age = int(input("Enter your age: "))
+phone = input("Enter your phone number: ")
+
+check_name = False
+for char in name:
+    if char.isalpha() or char.isspace():
+        check_name = True
+    else:
+        check_name = False
+
+check_age = False
+if 18 <= age <= 65:
+    check_age = True
+
+check_phone = False
+if phone.isdigit() and len(phone) == 10:
+    check_phone = True
+
+print("Validation Results:")
+if check_name:
+    print("Name: Valid (contains only letters and space)")
+else:
+    print("Name: Invalid")
+
+if check_age:
+    print("Age: Valid ({age} years old)")
+else:
+    print("Age: Invalid")
+
+if check_phone:
+    print("Phone: Valid (10-digit number)")
+else:
+    print("Phone: Invalid")
+
+print("Formatted Information:")
+print(f"Name: {name.upper()}")
+if 18 <= age <= 30:
+    print("Age Group: Young Adult (18-30)")
+elif 31 <= age <= 60:
+    print("Age Group: Adult (31-60)")
+else:
+    print("Age Group: Senior")
+print(f"Phone: +91-{phone}")
