@@ -31,7 +31,6 @@ return string ที่จัดรูปแบบข้อมูลผู้ใ
 def create_user_profile(username, age=18, premium=False):
     # Your Problem 3 solution
     pass
-<<<<<<< HEAD
     user_type = "Standard"
     if premium == True:
         user_type = "Premium"
@@ -41,8 +40,6 @@ def create_user_profile(username, age=18, premium=False):
     print(create_user_profile("Oat"))
     print(create_user_profile("Yeat", 19))
     print(create_user_profile("Kapook", 20, True))
-=======
->>>>>>> upstream/main
 
 """ เขียน function ชื่อ analyze_scores ที่มีคุณสมบัติดังนี้:
 
