@@ -21,9 +21,13 @@ print("My name is Your Name")
 # - A sentence with spaces
 
 # Write your code here:
+<<<<<<< HEAD
 print("2")
 print("Freedom")
 print("Something when wrong!")
+=======
+
+>>>>>>> upstream/main
 
 
 # Exercise 5: Understanding Print Behavior

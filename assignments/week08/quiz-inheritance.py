@@ -6,6 +6,7 @@ Create a class hierarchy:
     Implement a method get_info() in both classes
 
 """
+<<<<<<< HEAD
 
 class Vehicle:
  
@@ -23,3 +24,5 @@ class Car(Vehicle):
         self.number_of_doors = number_of_doors    
 Vehicle = Vehicle("toyota","yaris","2025")    
 print(Vehicle.get_info())
+=======
+>>>>>>> upstream/main

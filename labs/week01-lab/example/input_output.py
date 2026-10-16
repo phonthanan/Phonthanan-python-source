@@ -27,8 +27,13 @@ print("Calculated age:", calculated_age)
 
 # Exercise 4: Different Print Formats
 print("\n=== Exercise 4: Print Formatting ===")
+<<<<<<< HEAD
 name = "Phonthanan"
 score = 50
+=======
+name = "Alice"
+score = 95
+>>>>>>> upstream/main
 subject = "Math"
 
 # Different ways to print the same information
